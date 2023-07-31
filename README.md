@@ -11,10 +11,10 @@ You can use this tool to help roll back to previous versions of a Lambda functio
   - "lambda:GetAlias",
   - "lambda:UpdateAlias"
 ## Example Usage
-  lambdautil list --fn <function name>
+  lambdautil list --fn my-lambda-function-D6r1i2eIQ2nA
   - This will list all versions of the specified function
-  lambdautil update --fn <function name> --version 12 --alias production
-  - This will update the alias called 'production' to version 12
+  lambdautil update --fn my-lambda-function-D6r1i2eIQ2nA --version 4 --alias production
+  - This will update the alias called 'production' to version 4
 
 ## Example Output
 Version list for  my-lambda-function-D6r1i2eIQ2nA
